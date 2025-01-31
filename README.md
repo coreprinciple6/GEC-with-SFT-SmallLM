@@ -50,8 +50,10 @@ The goal is to train the SmolLM-135M model to effectively correct grammatical er
 
 | Metric        | Target Score | Achieved Score |
 |--------------|-------------|---------------|
-| BLEU Score   | >45 (BEA-2019 baseline) | **0.47** (after 2 epochs) |
-| Loss | >50 (CoNLL-2014 benchmark) | TBD |
+| BLEU Score   | >45 (BEA-2019 baseline) | **0.49** (after 2 epochs) |
+| Loss | >50 (CoNLL-2014 benchmark) | 1.57 |
+
+<img width="453" alt="image" src="https://github.com/user-attachments/assets/70207df7-6bc0-4fa6-946f-00a0f3b42d17" />
 
 ## ⚙️ Training Configuration  
 
@@ -85,4 +87,4 @@ training_args = SFTConfig(
 
 ## 📂 Model Checkpoints  
 
-The trained model is available on [Hugging Face 🤗](#) (link to be added).  
+The trained model is available on [Hugging Face 🤗](https://huggingface.co/coreprinciple/smolLM-sft-gec/blob/main/README.md).  
